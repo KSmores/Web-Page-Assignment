@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 28px;
+            background-color: rgb(1, 19, 33);
+            color: rgb(49, 164, 195);
+            text-align: center;
+        }
+
+        footer {
+            font-size: 16px;
+            color: rgb(49, 164, 195);
+            text-align: center;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            min-height: 60px;
+            background-color: #333;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(76, 147, 175);
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #111;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="header.jpg" alt="Virtual Reality Header" title="Virtual Reality" style="width:1000px;height:480px;">
+    </div>
+
+    <ul>
+        <li><a href="webpageAssignment.html">Home</a></li>
+        <li class="dropdown active">
+            <a href="javascript:void(0)" class="dropbtn">Virtual Reality</a>
+            <div class="dropdown-content">
+                <a href="vrDef.html">Definition</a>
+                <a href="vrMed.html">Medical Use</a>
+                <a href="vrMil.html">Military Use</a>
+                <a href="vrNow.html">Quarantine Use</a>
+            </div>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Augmented Reality</a>
+            <div class="dropdown-content">
+                <a href="arUses.html">Definition</a>
+                <a href="arUses01.html">Military Use</a>
+                <a href="arUses02.html">Daily Use</a>
+            </div>
+        <li><a href="WebPageXR.html">Mixed Reality</a></li>
+    </ul>
+
+    <h1>Military Training In A Non-Real Environment</h1>
+    <p>Virtual Reality has been adopted by the military – this includes all three services (army, navy and air force) – where it is used for training purposes. This is particularly useful for training soldiers for combat situations or other dangerous settings where they have to learn how to react in an appropriate manner. <br>
+    A virtual reality simulation enables them to do so but without the risk of death or a serious injury. They can re-enact a particular scenario, for example engagement with an enemy in an environment in which they experience this but without the real world risks. This has proven to be safer and less costly than traditional training methods.</p>
+    <img src="para.jpg" alt="Virtual Reality Parachute Training" title="A Soldier uses VR to do parachute training, without actually having to parachute!" style="width:400;height:270px;">
+    <p>Various trainings done in the virtual setting include: Flight simulation, Battlefield simulation, Medic training, Vehicle simulation, and even a Virtual boot camp. </p>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/JIgeMJx4g0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Virtual reality is also used to treat post-traumatic stress disorder. Soldiers suffering from battlefield trauma and other psychological conditions can learn how to deal with their symptoms in a ‘safe’ environment. The idea is for them to be exposed to the triggers for their condition which they gradually adjust to. This has the effect of decreasing their symptoms and enabling them to cope to new or unexpected situations.</p>
+</body>
+<footer>Kyle Dinsmore - ITC134 5/26/20</footer>
+
+</html>

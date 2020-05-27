@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 28px;
+            background-color: rgb(1, 19, 33);
+            color: rgb(49, 164, 195);
+            text-align: center;
+        }
+
+        footer {
+            font-size: 16px;
+            color: rgb(49, 164, 195);
+            text-align: center;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            min-height: 60px;
+            background-color: #333;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(76, 147, 175);
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #111;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="header.jpg" alt="Virtual Reality Header" title="Virtual Reality" style="width:1000px;height:480px;">
+    </div>
+
+    <ul>
+        <li><a href="webpageAssignment.html">Home</a></li>
+        <li class="dropdown active">
+            <a href="javascript:void(0)" class="dropbtn">Virtual Reality</a>
+            <div class="dropdown-content">
+                <a href="vrDef.html">Definition</a>
+                <a href="vrMed.html">Medical Use</a>
+                <a href="vrMil.html">Military Use</a>
+                <a href="vrNow.html">Quarantine Use</a>
+            </div>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Augmented Reality</a>
+            <div class="dropdown-content">
+                <a href="arUses.html">Definition</a>
+                <a href="arUses01.html">Military Use</a>
+                <a href="arUses02.html">Daily Use</a>
+            </div>
+        <li><a href="WebPageXR.html">Mixed Reality</a></li>
+    </ul>
+
+    <h1>Virtual Reality - A Look Into Another World</h1>
+    <p>Virtual Reality or simply VR, is a simulated experience that can be similar to or completely different from the
+        real world.</p>
+    <p>Applications of virtual reality can include entertainment (videogames, television, movies) and educational
+        purposes (medical training, military training). Currently, standard virtual reality systems use either virtual
+        reality headsets or multi-projected environments to generate realistic images, sounds and other sensations that
+        simulate a user's physical presence in a virtual environment.</p>
+    <p>Here is an example of a popular virtual reality company, Oculus, showcasing their produce called "Rift".</p>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/fnCmUWqKo6g" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>A person using virtual reality equipment is able to look around the artificial world, move around in it, and
+        interact with virtual features or items. The effect is commonly created by VR headsets consisting of a
+        head-mounted display with a small screen in front of the eyes, but can also be created through specially
+        designed rooms with multiple large screens.
+        Virtual reality typically incorporates auditory and video feedback, but may also allow other types of sensory
+        and force feedback through haptic technology.</p>
+</body>
+<footer>Kyle Dinsmore - ITC134 5/26/20</footer>
+
+</html>
